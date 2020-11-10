@@ -3,5 +3,5 @@ rustup update
 flatpak update -y
 sudo snap refresh
 paru -Sua --noconfirm
-sudo pacman -Syu --noconfirm
-pacman -Qtdq | pacman -Rns -
+paru -Syu --noconfirm
+sudo pacman -Qtdq | sudo pacman -Rns -
