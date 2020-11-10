@@ -1,3 +1,4 @@
+pip freeze --user | cut -d'=' -f1 | xargs -n1 pip install -U
 rustup update
 sudo apt update
 flatpak update -y
